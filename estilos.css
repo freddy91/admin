@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:#fff;
+}
+
+/****INDEX*****/
+
+.registro{
+	background: #000;
+}
+
+.registro nav{
+	width: 100%;
+	clear: both;
+
+}
+
+.registro nav ul{
+	width: 100%;
+	height: 41px;
+	list-style: none;
+	
+}
+
+.registro nav ul li{
+	text-align: center;
+	height: 41px;
+	float: right;
+	box-sizing: border-box;
+	
+}
+
+.registro nav ul li  a:link, nav ul li a:visited{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 11px 10px;
+}
+
+.registro nav ul li:hover{
+	background: red;
+}
+
+.registrarse{
+	background: #008000;
+}
+
+
+/*** MENU PRINCIPAL ****/
+
+.menu nav{
+	width: 100%;
+	clear: both;
+}
+
+.menu nav ul{
+	width: 100%;
+	height: 41px;
+	list-style: none;
+	
+}
+
+.menu nav ul li{
+	text-align: center;
+	height: 41px;
+	float: left;
+	box-sizing: border-box;
+	width: 25%;
+	border-right: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+}
+
+.menu nav ul li  a:link, nav ul li a:visited{
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 12px 0;
+}
+
+.menu nav ul li:hover, .menu nav ul li a:hover{
+	background: #828282;
+	color: #fff;
+}
+
+
+/*****REGISTRO******/
+
+
+h1{
+	margin-bottom:10px;
+}
+
+label {
+    display: block;
+    margin: 0px 5px;
+}
+
+label>span {
+    float: left;
+    margin-top: 10px;
+    color: #5E5E5E;
+}
+
+ input[type="text"] {
+    color: #555;
+    height: 30px;
+    line-height:15px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color:#696464;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+	margin-top:10px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+ .button:hover {
+    background-color:#C15658;
+}
+
+ /***********ENVIAR EMAIL*********/
+
+
+.correo{
+	background: #C15658;
+}
+
+.container{
+	width:500px;
+	margin:50px auto;
+	clear:both;
+	
+
+}
+
+
+.primer_formulario {
+	float:left;
+	width:100%;
+    padding: 30px 30px 20px 25px;
+	box-sizing:border-box;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background:#fff;
+	
+	
+}
+h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #FFF;
+	text-align:center;
+	margin-bottom:10px;
+    text-shadow: 1px 1px 1px #949494;
+
+
+}
+
+.acepto{
+	 margin: 0px 0px 5px;
+	 text-align:justify;
+}
+.primer_formulario label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.primer_formulario label>span {
+    float: left;
+    margin-top: 10px;
+    color: #5E5E5E;
+}
+.primer_formulario input[type="text"], .primer_formulario input[type="email"], .primer_formulario textarea {
+    color: #555;
+    height: 30px;
+    line-height:15px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+.primer_formulario textarea{
+    height:100px;
+    padding-top: 10px;
+}
+.primer_formulario .button {
+    background-color:#696464;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+	margin-top:10px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.primer_formulario .button:hover {
+    background-color:#C15658;
+}
+
+.correcto{
+	background:#ccffcc;
+	height: 25px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 1px solid #a4c47b;
+}
+
+.correcto p{
+	color: #0d8500; 
+}
+
+
+.correcto p::before{
+	content: "✓";
+	margin-right: 5px;
+}
+
+
+
+
+
+
+

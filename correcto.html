@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contacto</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="correo">
+<div class="container">
+	<h1>Formulario de Contacto</h1>
+	<form action="/cgi-bin/enviarCorreo.pl" method="post" class="primer_formulario" >
+		<div class="correcto">
+			<p>El mensaje ha sido enviado correctamente,¡muchas gracias!</p>
+		
+		</div>
+    	<label>
+        	<span>Tu correo:</span>
+        	<input type="email" name="email" id="email" />
+    	</label>
+    
+    	<label>
+        	<span>Asunto:</span>
+        	<input type="text" name="asunto" id="asunto"/>
+    	</label>
+    
+    
+    	<label>
+        	<span>Mensaje:</span>
+        	<textarea  name="mensaje" id="mensaje"></textarea>
+    	</label> 
+	
+        <input type="submit" class="button" value="Enviar" /> 
+       
+	</form>
+</div>
+</body>
+</html>
